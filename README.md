@@ -9,7 +9,7 @@ OpenGL的配置，系统：Windows 10 ; IDE:Visual Studio 2010
 (注：如在开发应用程序时用到OpenGL辅助库函数，则还需下载相应动态链接库，包含glaux.dll, glaux.lib, glaux.h，相应步骤同上)  
 
 链接OpenGL libraries。在Visual C++中先右击项目，选择属性，找到连接器标签，最后在输入中的附加依赖库加上
-opengl32.lib glut32.lib glu32.lib glaux.lib(如果用到了).  
+opengl32.lib glut32.lib glu32.lib glaux.lib.  
 
 其次先看一下最终效果，左侧有蓝色斜面，会有碰撞反弹，以及果冻的拉伸和收缩效果，利用很多弹簧模拟果冻的伸缩感，可以给弹簧外侧上纹理：  
 ###果冻效果
